@@ -43,7 +43,35 @@ let changeIsin = Boolean(isIn)
 
 let aNumber = 55
 let changeNumber = String(aNumber)
-console.log(typeof changeNumber)
-console.log(changeNumber)
+// console.log(typeof changeNumber)
+// console.log(changeNumber)
 
 // it will give changeNumber as 55 but typeof changeNumber will say it is actually a string type
+
+
+// ***OPERATIONS***
+
+let a = 6;
+let b = -a
+// console.log(b)
+
+//string addition
+let str1 = "ivy";
+let str2 = " das";
+let str3 = str1+ str2;
+// console.log(str3); // output => ivy das 
+
+// console.log("1" + 2 + 2); // output => 122 ECMA script rule
+// console.log(1 + 2 + "2");// output => 32 same ECMA script rule
+
+
+// console.log(+true); // output => 1
+// console.log(+false);// output => 0
+// console.log(+"");// output =>0
+
+
+let gameScore = 100
+++ gameScore;
+console.log(gameScore);
+gameScore++;
+console.log(gameScore);
