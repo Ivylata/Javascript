@@ -27,3 +27,27 @@ const myFunc = function(){
 // console.log(typeof myFunc); // type: function it is termed as object function type
 
 
+// ++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory => Primitive type   Heap memory => Non-primitive type
+
+let youTube1 = "Hritesh"
+
+let youTube2 = youTube1
+youTube2 = "chaiaurcode"
+
+console.log(youTube1);
+console.log(youTube2); // output : Hritesh chaiaurcode
+
+let userOne = {
+    email:"abc@google.com",
+    upi: "abc@ybl",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "dvc@google.com";
+
+console.log(userOne.email,userTwo.email); // output : dvc@google.com for both due to heap memory
+
+
