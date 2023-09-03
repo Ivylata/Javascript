@@ -1,6 +1,6 @@
 # Javascript Learning Youtube
 
-Day 1 - Environment Set Up in
+Day 1 - Environment Set Up <br>
         Folder- 01-Basic - test.js
 
 Day 2 - Folder- 01-Basic - 01-variable.js : variables, constants<br>
