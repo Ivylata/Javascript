@@ -1,5 +1,7 @@
 # Javascript Learning Youtube
 
+This is repo of JAVASCRIPT where I track my learning progress
+
 Day 1 - Environment Set Up <br>
         Folder- 01-Basic - test.js
 
@@ -12,3 +14,6 @@ Day 3 - Folder- 01-Basic - datatypesandmemory.js : datatypes in detail and memor
                            05-string.js : string concept and it's various functions
 
 Day 4 - Folder- 01-Basic - 06-numandmath.js : number and it's various functions and Math function
+
+Day 5 - Folder- 01-Basic - 07-dates.js : dates, timestamp usage <br>
+        Folder- 02-Basic - 01-array.js : arrays and it's working
