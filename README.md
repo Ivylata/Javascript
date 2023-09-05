@@ -16,4 +16,6 @@ Day 3 - Folder- 01-Basic - datatypesandmemory.js : datatypes in detail and memor
 Day 4 - Folder- 01-Basic - 06-numandmath.js : number and it's various functions and Math function
 
 Day 5 - Folder- 01-Basic - 07-dates.js : dates, timestamp usage <br>
-        Folder- 02-Basic - 01-array.js : arrays and it's working
+        Folder- 02-Basic - 01-arrays.js : arrays and it's working<br>
+                           02-arrays.js : arrays functions 
+         
