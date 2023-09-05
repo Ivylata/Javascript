@@ -30,3 +30,5 @@ const url = "https://ivy%52das"
 console.log(url.replace('%',';)')); // replace the given with the given
 console.log((url.includes('ivy')));//check if given is included or not
 console.log(game.split('-'));// split the string as per given element here we gave "-"
+
+// when we use string methods we have to use () like string1.trim() but whem we use function we use no () like string1.length
