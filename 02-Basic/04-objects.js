@@ -58,11 +58,11 @@ const users = [
     
 ] // array of object structure
 // to access 
-console.log(users[1].id);
+// console.log(users[1].id);
 
-console.log(Object.keys(otherUSer)); // keys are put into an array: [ 'email', 'fullname' ]
-console.log(Object.values(otherUSer)); 
-console.log(Object.entries(user1));// will return key-value pair array
+// console.log(Object.keys(otherUSer)); // keys are put into an array: [ 'email', 'fullname' ]
+// console.log(Object.values(otherUSer)); 
+// console.log(Object.entries(user1));// will return key-value pair array
 /* output =>
 [
   [ 'isLoggedIn', true ],
@@ -71,8 +71,21 @@ console.log(Object.entries(user1));// will return key-value pair array
   [ 'name', 'Vaarat' ]
 ]*/
 
-console.log(user1.hasOwnProperty("Id")); // if the value exist in object then true else false
+// console.log(user1.hasOwnProperty("Id"));// if the value exist in object then true else false
 
 
+//+++++++++++++++++++++++++++++++++ De-structuring of object +++++++++++++++++++++++++++++++++++++++++++
 
+const course = {
+    courseName : "JavaScript in hindi",
+    price : "500",
+    courseInstructor: "Hritesh",
+}
 
+const {courseInstructor} = (course);
+console.log(courseInstructor); // get values of objects
+//rename
+const {courseName: course1} = (course) // object destructure
+console.log(course1);
+
+/* note: in early years values from backend in an api call came in xml  but now it came as json*/
