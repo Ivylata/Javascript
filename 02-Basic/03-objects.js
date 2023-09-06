@@ -31,7 +31,7 @@ const myUser = {
     myUser.name = "Fanny"
 
     // to freeze the object values
-    Object.freeze(myUser);
+    // Object.freeze(myUser);
     myUser.name = "Ivy"// no changes will be done
 
     // console.log(myUser);
@@ -40,4 +40,11 @@ const myUser = {
         console.log("Hello");
     }
 
-    console.log(myUser.greetings());
+    console.log(myUser.greetings); // output => [Function (anonymous)]
+
+    myUser.greetingsTwo = function(){
+        console.log(`Hello user ${this.name}`); // with string interpolation technique
+    }
+
+    console.log(myUser.greetingsTwo());
+  
