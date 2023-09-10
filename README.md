@@ -22,4 +22,8 @@ Day 5 - Folder- 01-Basic - 07-dates.js : dates, timestamp usage <br>
 Day 6 - Folder- 02-Basic - 03-objects.js : objects, various funcions, symbol as key  <br>
                         04-objects.js : objects, object destructure and json concept  <br>
 
+
+
+Day 7 - Folder- 03-Basic - 01-functions.js : functions concepts function withh array, objects and function return <br>
+
          
