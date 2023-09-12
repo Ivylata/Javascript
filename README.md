@@ -26,6 +26,8 @@ Day 6 - Folder- 02-Basic - 03-objects.js : objects, various funcions, symbol as 
 Day 7 - Folder- 03-Basic - 01-functions.js : functions concepts function withh array, objects and function return <br>
                            02-scopes.js : global scopes and block scopes <br>
 
-Day 8 - Folder- Basic - 02-scopes.js : scopes in detail, function scopes braces scope <br>
+Day 8 - Folder- 03-Basic - 02-scopes.js : scopes in detail, function scopes braces scope <br>
+
+Day 9 - Folder- 03-Basic - 03-arrowfunc.js : this usage an arrow function descriptions
 
          
