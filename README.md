@@ -31,4 +31,6 @@ Day 8 - Folder- 03-Basic - 02-scopes.js : scopes in detail, function scopes brac
 Day 9 - Folder- 03-Basic - 03-arrowfunc.js : this usage an arrow function descriptions <br>
                            04-iife.js : IIFE concept, separate two IIFE with ; named IIFE and parametered IIFE
 
+
+Day 10 - Javasvript Execution Context
          
